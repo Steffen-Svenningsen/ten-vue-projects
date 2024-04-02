@@ -1,9 +1,7 @@
 <template>
   <nav>
     <router-link to="/todo-app">Todo-app</router-link>
-    <router-link to="/todo-app">Todo-app</router-link>
-    <router-link to="/todo-app">Todo-app</router-link>
-    <router-link to="/todo-app">Todo-app</router-link>
+    <router-link to="/random-quote-generator">Random Quote Generator</router-link>
   </nav>
 </template>
 

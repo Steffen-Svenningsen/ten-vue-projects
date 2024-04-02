@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -7,12 +6,17 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: HomeView
+      component: () => import('../views/HomeView.vue')
     },
     {
       path: '/todo-app',
       name: 'todo-app',
       component: () => import('../views/projects/TodoApp.vue')
+    },
+    {
+      path: '/random-quote-generator',
+      name: 'random-quote-generator',
+      component: () => import('../views/projects/RandomQuoteGenerator.vue')
     }
   ]
 })
