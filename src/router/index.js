@@ -22,6 +22,11 @@ const router = createRouter({
       path: '/calculator',
       name: 'calculator',
       component: () => import('../views/projects/AmazingCalculator.vue')
+    },
+    {
+      path: '/accordion',
+      name: 'accordion',
+      component: () => import('../views/projects/AccordionComponent.vue')
     }
   ]
 })
