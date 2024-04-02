@@ -17,6 +17,11 @@ const router = createRouter({
       path: '/random-quote-generator',
       name: 'random-quote-generator',
       component: () => import('../views/projects/RandomQuoteGenerator.vue')
+    },
+    {
+      path: '/calculator',
+      name: 'calculator',
+      component: () => import('../views/projects/AmazingCalculator.vue')
     }
   ]
 })

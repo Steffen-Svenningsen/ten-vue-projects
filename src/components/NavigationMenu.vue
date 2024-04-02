@@ -2,6 +2,7 @@
   <nav>
     <router-link to="/todo-app">Todo-app</router-link>
     <router-link to="/random-quote-generator">Random Quote Generator</router-link>
+    <router-link to="/calculator">Calculator</router-link>
   </nav>
 </template>
 
