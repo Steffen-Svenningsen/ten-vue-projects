@@ -3,6 +3,18 @@ import NavigationMenu from '@/components/NavigationMenu.vue'
 </script>
 
 <template>
-  <h1>Home</h1>
-  <NavigationMenu />
+  <main>
+    <h1>10 Quick Vue Projects</h1>
+    <NavigationMenu />
+  </main>
 </template>
+
+<style scoped>
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+}
+</style>
