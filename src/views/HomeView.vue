@@ -17,4 +17,8 @@ main {
   align-items: center;
   padding-top: 3rem;
 }
+
+h1 {
+  text-align: center;
+}
 </style>

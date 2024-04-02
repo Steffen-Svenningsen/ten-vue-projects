@@ -1,6 +1,9 @@
 <template>
   <nav>
     <router-link to="/todo-app">Todo-app</router-link>
+    <router-link to="/todo-app">Todo-app</router-link>
+    <router-link to="/todo-app">Todo-app</router-link>
+    <router-link to="/todo-app">Todo-app</router-link>
   </nav>
 </template>
 
@@ -8,7 +11,9 @@
 nav {
   display: flex;
   gap: 8px;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 840px;
 }
 
 a {
