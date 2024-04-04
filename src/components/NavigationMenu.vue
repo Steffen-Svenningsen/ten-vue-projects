@@ -4,6 +4,7 @@
     <router-link to="/random-quote-generator">Random Quote Generator</router-link>
     <router-link to="/calculator">Calculator</router-link>
     <router-link to="/accordion">Accordion</router-link>
+    <router-link to="/form-validation">Form Validation</router-link>
   </nav>
 </template>
 

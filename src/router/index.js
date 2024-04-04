@@ -27,6 +27,11 @@ const router = createRouter({
       path: '/accordion',
       name: 'accordion',
       component: () => import('../views/projects/AccordionComponent.vue')
+    },
+    {
+      path: '/form-validation',
+      name: 'form-validation',
+      component: () => import('../views/projects/FormValidation.vue')
     }
   ]
 })
