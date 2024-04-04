@@ -32,6 +32,11 @@ const router = createRouter({
       path: '/form-validation',
       name: 'form-validation',
       component: () => import('../views/projects/FormValidation.vue')
+    },
+    {
+      path: '/password-generator',
+      name: 'password-generator',
+      component: () => import('../views/projects/PasswordGenerator.vue')
     }
   ]
 })

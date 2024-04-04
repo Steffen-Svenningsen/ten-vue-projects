@@ -5,6 +5,7 @@
     <router-link to="/calculator">Calculator</router-link>
     <router-link to="/accordion">Accordion</router-link>
     <router-link to="/form-validation">Form Validation</router-link>
+    <router-link to="/password-generator">Password Generator</router-link>
   </nav>
 </template>
 
