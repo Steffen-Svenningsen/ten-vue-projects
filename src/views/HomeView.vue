@@ -6,6 +6,7 @@ import NavigationMenu from '@/components/NavigationMenu.vue'
   <main>
     <h1>10 Quick Vue Projects</h1>
     <NavigationMenu />
+    <p class="info-msg">More to come..</p>
   </main>
 </template>
 
@@ -20,5 +21,11 @@ main {
 
 h1 {
   text-align: center;
+}
+
+.info-msg {
+  margin-top: 6rem;
+  font-size: 12px;
+  opacity: 0.5;
 }
 </style>
