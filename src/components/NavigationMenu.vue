@@ -7,6 +7,7 @@
     <router-link to="/form-validation">Form Validation</router-link>
     <router-link to="/password-generator">Password Generator</router-link>
     <router-link to="/progress-steps">Progress Steps</router-link>
+    <router-link to="/dad-jokes">Dad Jokes</router-link>
   </nav>
 </template>
 

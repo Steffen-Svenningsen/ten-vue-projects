@@ -42,6 +42,11 @@ const router = createRouter({
       path: '/progress-steps',
       name: 'progress-steps',
       component: () => import('../views/projects/ProgressSteps.vue')
+    },
+    {
+      path: '/dad-jokes',
+      name: 'dad-jokes',
+      component: () => import('../views/projects/DadJokes.vue')
     }
   ]
 })
