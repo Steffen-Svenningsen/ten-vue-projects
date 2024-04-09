@@ -37,6 +37,11 @@ const router = createRouter({
       path: '/password-generator',
       name: 'password-generator',
       component: () => import('../views/projects/PasswordGenerator.vue')
+    },
+    {
+      path: '/progress-steps',
+      name: 'progress-steps',
+      component: () => import('../views/projects/ProgressSteps.vue')
     }
   ]
 })
