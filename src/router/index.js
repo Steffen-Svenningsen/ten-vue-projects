@@ -47,6 +47,11 @@ const router = createRouter({
       path: '/dad-jokes',
       name: 'dad-jokes',
       component: () => import('../views/projects/DadJokes.vue')
+    },
+    {
+      path: '/github-user-search',
+      name: 'github-user-search',
+      component: () => import('../views/projects/GithubUserSearch.vue')
     }
   ]
 })
