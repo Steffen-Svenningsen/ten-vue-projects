@@ -9,6 +9,7 @@
     <router-link to="/progress-steps">Progress Steps</router-link>
     <router-link to="/dad-jokes">Dad Jokes</router-link>
     <router-link to="/github-user-search">Github User Search</router-link>
+    <router-link to="/wiki-clone">Wiki Clone</router-link>
   </nav>
 </template>
 

@@ -52,6 +52,11 @@ const router = createRouter({
       path: '/github-user-search',
       name: 'github-user-search',
       component: () => import('../views/projects/GithubUserSearch.vue')
+    },
+    {
+      path: '/wiki-clone',
+      name: 'wiki-clone',
+      component: () => import('../views/projects/WikiClone.vue')
     }
   ]
 })
